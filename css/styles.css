@@ -11,6 +11,25 @@ a {
 ul,
 ol {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
 }
 .logo {
   color: #4d5ae5;
@@ -20,6 +39,11 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 .logo-part {
   color: #2e2f42;
@@ -30,6 +54,8 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
 }
 
 .nav-link:hover,
@@ -38,6 +64,11 @@ ol {
 }
 .address {
   font-style: normal;
+  margin-left: auto;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 .address-link {
   color: #434455;
@@ -103,7 +134,7 @@ ol {
 }
 
 .band-background {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 .band {
   color: #2e2f42;
@@ -116,7 +147,7 @@ ol {
 }
 
 .band-list {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .band-person {
